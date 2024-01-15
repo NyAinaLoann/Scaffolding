@@ -1,0 +1,36 @@
+##packagekey## ##package## ##endline##
+
+##importkey##  ##libraries## ##endline##
+
+##annotationController##
+##annotationRoute##
+##scopeController## class ##EntityName##Controller ##extendskey## ##classextends## ##bracketopen##  
+
+    ##annotationGet##
+    public ##returnType## read##EntityName##() ##bracketopen## 
+        return null ##endline##
+    ##bracketclose##
+
+
+    ##annotationGetId##
+    public ##returnTypeId## read##EntityName##( ##pathAttribute## ##identifierType## id) ##bracketopen## 
+        return null ##endline##
+    ##bracketclose##
+
+
+    ##annotationPost##
+    public ##returnTypeId## create##EntityName##( ##bodyAttribute## ##EntityName## requestBody) ##bracketopen## 
+        return null ##endline##
+    ##bracketclose##
+
+    ##annotationPost##
+    public ##returnTypeId## create##EntityName##( ##pathAttribute## ##identifierType## id , ##bodyAttribute## ##EntityName## requestBody) ##bracketopen## 
+        return null ##endline##
+    ##bracketclose##
+
+    ##annotationDelete##
+    public ##returnTypeId## delete##EntityName##( ##pathAttribute## ##identifierType## id) ##bracketopen## 
+        return null ##endline##
+    ##bracketclose##
+
+##bracketclose##
