@@ -1,0 +1,86 @@
+{
+  "java": {
+    "String": {
+      "package": "java.lang",
+      "sqltype": ["varchar", "text", "json", "char", "uuid"]
+    },
+    "Integer": {
+      "package": "java.lang",
+      "sqltype": ["int"]
+    },
+    "int": {
+      "package": "java.lang",
+      "sqltype": ["serial"]
+    },
+    "Long": {
+      "package": "java.lang",
+      "sqltype": ["bigint", "serial"]
+    },
+    "Double": {
+      "package": "java.lang",
+      "sqltype": ["numeric", "decimal", "double"]
+    },
+    "Float": {
+      "package": "java.lang",
+      "sqltype": ["real"]
+    },
+    "Date": {
+      "package": "java.sql",
+      "sqltype": ["date"]
+    },
+    "Time": {
+      "package": "java.sql",
+      "sqltype": ["time"]
+    },
+    "Timestamp": {
+      "package": "java.sql",
+      "sqltype": ["timestamp"]
+    },
+    "Boolean": {
+      "package": "java.lang",
+      "sqltype": ["boolean"]
+    },
+    "Object": {
+      "package": "java.lang",
+      "sqltype": []
+    }
+  },
+  "csharp": {
+    "string": {
+      "package": "System",
+      "sqltype": ["varchar", "text", "json", "char", "uuid"]
+    },
+    "int": {
+      "package": "System",
+      "sqltype": ["int", "int4", "serial", "integer"]
+    },
+    "long": {
+      "package": "System",
+      "sqltype": ["bigint", "serial"]
+    },
+    "double": {
+      "package": "System",
+      "sqltype": ["numeric", "decimal", "double"]
+    },
+    "float": {
+      "package": "System",
+      "sqltype": ["real"]
+    },
+    "DateTime": {
+      "package": "System",
+      "sqltype": ["date", "timestamp"]
+    },
+    "TimeSpan": {
+      "package": "System",
+      "sqltype": ["time"]
+    },
+    "bool": {
+      "package": "System",
+      "sqltype": ["boolean"]
+    },
+    "object": {
+      "package": "System",
+      "sqltype": []
+    }
+  }
+}

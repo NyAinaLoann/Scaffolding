@@ -1,0 +1,29 @@
+{
+    "java":{
+        "packagekey":"package",
+        "importkey":"import",
+        "scopeController":"public",
+        "throwskey":"throws Exception",
+        "newthrow":"throw new Exception(\"<exception>\")",
+        "bracketopen":"{",
+        "bracketclose":"}",
+        "endline":";",
+        "extension":"java",
+        "extendskey":"extends",
+        "getset":"public <typefield> get<Namefield>(){\n        return this.<namefield>;\n    }\n    public void set<Namefield>(<typefield> <namefield>){\n        this.<namefield>=<namefield>;\n    }"
+
+    },
+    "cs":{
+        "packagekey":"namespace",
+        "importkey":"using",
+        "scopeController":"public",
+        "throwskey":"",
+        "newthrow":"throw new Exception(\"<exception>\")",
+        "bracketopen":"{",
+        "bracketclose":"}",
+        "endline":";",
+        "extension":"cs",
+        "extendskey":":",
+        "getset":"public <typefield> <Namefield>{ get => this.<namefield> ; set => this.<namefield> = value; }"
+    }
+}
